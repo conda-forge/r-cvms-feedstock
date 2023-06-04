@@ -1,4 +1,4 @@
-{% set version = "1.3.9" %}
+{% set version = "1.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cvms_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cvms/cvms_{{ version }}.tar.gz
-  sha256: 8cef04a80a51bdb6739ddb1e4e786c4f80b86b627f6388be11548476f4c39704
+  sha256: 3909b8fa3f0b136e690293f8cb0d683178cb86a3bba461c76599fc473fb1d540
 
 build:
   merge_build_host: true  # [win]
