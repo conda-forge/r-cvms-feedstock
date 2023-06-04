@@ -1,11 +1,11 @@
-About r-cvms
-============
+About r-cvms-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cvms-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ludvigolsen/cvms
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cvms-feedstock/blob/main/LICENSE.txt)
 
 Summary: Cross-validate one or multiple regression and classification models and get relevant evaluation metrics in a tidy format. Validate the best model on a test set and compare it to a baseline evaluation. Alternatively, evaluate predictions from an external model. Currently supports regression and classification (binary and multiclass). Described in chp. 5 of Jeyaraman, B. P., Olsen, L. R., & Wambugu M. (2019, ISBN: 9781838550134).
 
