@@ -1,4 +1,4 @@
-{% set version = "1.6.3" %}
+{% set version = "1.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cvms_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cvms/cvms_{{ version }}.tar.gz
-  sha256: 676f85777c639d38d9827dd68a89e75a77a64ce17e2745322f6d0db1431df419
+  sha256: 667671be33a17abc57fd80f3684bfbc7779771217518a5327377cee769419927
 
 build:
   number: 0
